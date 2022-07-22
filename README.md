@@ -5,6 +5,7 @@ This is my solution for the [Codelandia - Iuri Silva](https://discord.com/channe
 
 💻 [Here is the live version of my solution](https://ragazziana.github.io/codelandia-challenge-01/)
 
+## Responsivity
 
 ### Mobile Version
 
