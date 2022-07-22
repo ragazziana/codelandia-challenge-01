@@ -41,7 +41,6 @@
     line-height: 2.2rem;
 }
 
-
 .fa-magnifying-glass{
     font-size: 2rem;
     color: var(--white);
@@ -88,7 +87,7 @@
 
 .codelandia-nav__search:focus{
     outline: 2px solid var(--white);
-    opacity: .7;
+
 }
 
 .post-area{
@@ -114,7 +113,7 @@
 }
 
 .post-area__like-solid{
-    color: grey;
+    color: var(--gray);
     cursor: pointer;
 }
 
