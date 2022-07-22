@@ -83,6 +83,7 @@ body, html {
 }
 
 .codelandia-nav__search {
+  -webkit-appearance: none;
   width: 100%;
   margin-top: 4rem;
   padding: 1.2rem 1.2rem 1.2rem 0;
@@ -111,6 +112,7 @@ body, html {
 }
 
 .codelandia-nav__search::placeholder {
+  -webkit-appearance: none;
   color: var(--white);
   opacity: 0.5;
 }
