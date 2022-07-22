@@ -1,0 +1,29 @@
+:root{
+    
+    // Colors
+
+    --white: hsl(0, 0%, 100%);
+    --off-white: hsla(210, 20%, 96%, 1);
+    --black: hsl(0, 0%, 0%);
+    --primary-blue: hsla(245, 77%, 60%, 1);
+    --gray: hsl(0, 0%, 44%);
+    --dark-gray: hsl(220, 26%, 14%);
+    --red: hsl(0, 94%, 49%);
+
+    // Fonts
+
+    font-size: 62.5%; /* 1rem = 10px */
+    
+    --ff-main: 'Lexend Deca', sans-serif;
+    --ff-secondary: 'Inter', sans-serif;
+
+    // Font Sizes
+
+    --fs-main: 1.8rem;
+
+    // Font Weights
+
+    --fw-light: 300;
+    --fw-medium: 400;
+    --fw-bold: 700;
+}

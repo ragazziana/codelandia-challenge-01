@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://kit.fontawesome.com/43efee9e60.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+      <title>Codelândia</title>
+   </head>
+   <body>
+      <header class="codelandia">
+         <div class="codelandia-nav__wrapper">
+            <nav class="codelandia-nav">
+               <h1 class="codelandia-nav__logo">Codelândia</h1>
+               <p class="codelandia-nav__blog">blog</p>
+            </nav>
+            <div class="codelandia-searchbox-area">
+               <input class="codelandia-nav__search" placeholder="Pesquisar no blog" type="search" name="" id="">
+               <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+         </div>
+      </header>
+      <main class="post-area">
+         <section class="post-area__container">
+            <div class="post-area__topo">
+               <p class="post-area__date">02 de jul, 2022</p>
+               <i  onclick="changeHeartColor(this)" id="heart" class="post-area__like-solid fa-solid fa-heart"></i>
+            </div>
+            <div class="post-area__main">
+               <h2 class="post-area__title">Agora é oficial: o Windows 11 está vindo!</h2>
+               <p class="post-area__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+            </div>
+         </section>
+         <section class="post-area__container">
+            <div class="post-area__topo">
+               <p class="post-area__date">02 de jul, 2021</p>
+               <i  onclick="changeHeartColor(this)" class="post-area__like-solid fa-solid fa-heart"></i>
+            </div>
+            <div class="post-area__main">
+               <h2 class="post-area__title">Tim Berners-Lee vai leiloar o código fonte</h2>
+               <p class="post-area__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit lectus libero, id efficitur arcu viverra ac. Etiam sed sagittis velit, vitae convallis turpis. Praesent in purus non tellus tincidunt fermentum eu at sem. Curabitur lacus libero.</p>
+            </div>
+         </section>
+         <section class="post-area__container">
+            <div class="post-area__topo">
+               <p class="post-area__date">02 de jul, 2021</p>
+               <i  onclick="changeHeartColor(this)" class="post-area__like-solid fa-solid fa-heart"></i>
+            </div>
+            <div class="post-area__main">
+               <h2 class="post-area__title">Tem Firefox novo no mercado e você vai querer migrar!</h2>
+               <p class="post-area__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est.</p>
+            </div>
+         </section>
+         <section class="post-area__container">
+            <div class="post-area__topo">
+               <p class="post-area__date">02 de jul, 2021</p>
+               <i onclick="changeHeartColor(this)" class="post-area__like-solid fa-solid fa-heart"></i>
+            </div>
+            <div class="post-area__main">
+               <h2 class="post-area__title">John MCAfee, criador do antivírus McAfee, morre</h2>
+               <p class="post-area__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit lectus libero, id efficitur arcu viverra ac. Etiam sed sagittis velit, vitae convallis turpis. Praesent in purus non tellus tincidunt fermentum eu at sem. Curabitur lacus libero.</p>
+            </div>
+         </section>
+      </main>
+      <footer>
+         <p class="codelandia__footer" >Codelândia</p>
+      </footer>
+
+      <script src="js/main.js"></script>
+
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script>
+         const sr = ScrollReveal({
+             origin: 'top',
+             distance: '50px',
+             duration: 2000,
+             reset: true
+         });
+         
+         ScrollReveal().reveal('.post-area__container', { delay: 200 });
+      </script>
+   </body>
+</html>

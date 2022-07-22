@@ -1,0 +1,40 @@
+@media (min-width: 1280px){
+    .codelandia{
+        padding: 4.8rem 27rem;
+    }
+
+    .codelandia-nav__logo{
+        font-size: 2.4rem;
+    }
+
+    .codelandia-nav__blog{
+        font-size: 2.4rem;
+    }
+    
+    .post-area{
+        margin: 5rem 27rem;
+    }
+
+    .fa-magnifying-glass{
+        left: 1rem;
+        top: 7.7rem;
+    }
+
+    .codelandia-nav__search[type=search]{
+        font-size: 1.8rem;
+    }
+
+    .post-area__title{
+        font-weight: var(--fw-medium);
+        font-size: 2.6rem;
+        line-height: 3.2rem;
+    }
+
+    .post-area__content{
+        font-weight: var(--fw-medium);
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+    }
+    
+}
+
